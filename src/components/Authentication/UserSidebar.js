@@ -178,7 +178,7 @@ export default function UserSidebar() {
                            );
                            else{
                               return(
-                                 <div></div>
+                                 null
                               );
                            }
                         })
