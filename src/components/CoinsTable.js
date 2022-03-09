@@ -13,7 +13,7 @@ const CoinsTable = () => {
    
    const navigate = useNavigate();
 
-   const { currency , symbol, coins, loading, fetchCoins} = CryptoState();
+   const { symbol, coins, loading} = CryptoState();
 
    
 

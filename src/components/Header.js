@@ -20,7 +20,7 @@ const Header = () => {
    const classes = useStyles();
    const navigate = useNavigate();
 
-   const { currency, setCurrency, coins, user } = CryptoState();
+   const { currency, setCurrency, user } = CryptoState();
 
    // console.log(currency);
 

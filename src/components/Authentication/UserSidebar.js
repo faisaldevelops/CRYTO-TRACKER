@@ -9,7 +9,6 @@ import { signOut } from 'firebase/auth';
 import { auth, db } from '../../firebase';
 import { numberWithCommas } from '../Banner/Carousel';
 import { AiFillDelete } from 'react-icons/ai';
-import { async } from '@firebase/util';
 import { doc, setDoc } from 'firebase/firestore';
 
 const useStyles = makeStyles({
