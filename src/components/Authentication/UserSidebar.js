@@ -176,6 +176,11 @@ export default function UserSidebar() {
                                  </span>
                               </div>
                            );
+                           else{
+                              return(
+                                 <div></div>
+                              );
+                           }
                         })
                      }
 
